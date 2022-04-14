@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="py-2 bg-dark border-bottom">
+
+      <div class="container d-flex flex-wrap">
+        <a href="index.html">
+          <img src="logo.png" alt="mdo" width="80">
+        </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li>
+            <h1 style="color:rgb(255, 255, 255);"> Instituto profesional Telepresente</h1>
+          </li>
+        </ul>
+        <div class="text-end py-2">
+          <button type="button" class="btn btn-outline-primary me-2">Ingresar</button>
+          <button type="button" class="btn btn-warning">Registrarse</button>
+        </div>
+      </div>
+      <header class="p-6 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start py-2">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-1 text-white">Inicio</a></li>
+              <li><a href="quienes_somos.html" class="nav-link px-1 text-white">Quienes somos</a></li>
+              <li><a href="nuetras_carreras.html" class="nav-link px-1 text-white">Nuestras carreras</a>
+              </li>
+              <li><a href="conocenos.html" class="nav-link px-1 text-white">Conócenos</a></li>
+              <li><a href="preguntas_frecuentes.html" class="nav-link px-1 text-white">Preguntas
+                  frecuentes</a></li>
+              <li><a href="dudas.html" class="nav-link px-1 text-white">Dudas</a></li>
+              <li><a href="postula.html" class="nav-link px-1 text-white">Postula</a></li>
+              <li><a href="acceso_intranet.html" class="nav-link px-1 text-white">Acceso a intranet</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </nav>
+  </div>
+  <br></br>
+  <div class="container bg-dark " class="accordion" id="accordionExample">
+    <div class="accordion-item text-white bg-dark">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS MENCIÓN RECURSOS HUMANOS
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <img class="card-img-top" src="diseño_acordeon.png" alt="Card image cap">
+        <div class="accordion-body">
+          <h5>Duración carrera: 2 años</h5>
+          <h5>Jornada: Diurno / Vespertino</h5>
+          <hr />
+          El Técnico en Administración de Empresas es un técnico de nivel superior capacitado para coordinar y
+          ejecutar los procesos administrativos al
+          interior de la organización, en sus distintas áreas de funcionamiento. Ejercerá sus funciones de acuerdo a
+          estándares de calidad y criterios de
+          optimización de recursos, así como de satisfacción de los clientes. La mención Recursos Humanos le entrega,
+          además, las competencias necesarias
+          para desempeñarse con eficacia en la administración y operación del área de gestión de personas.
+          La malla curricular se caracteriza por tener un alto contenido práctico, orientada hacia el desarrollo de
+          competencias para el trabajo, lo que
+          establece el sello distintivo de los profesionales formados en nuestra institución.
+          <hr />
+          <div class="container">
+            <div class="text-end py-3 ">
+
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <img src="descargar_malla.png" alt="mdo" width="90" class="rounded-pill">
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog bg-dark">
+                  <div class="modal-content bg-dark">
+                    <div class="modal-header bg-dark">
+                      <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="col-12">
+                        <h4 class="mb-3 text-lg-start">Ingresa tus datos</h4>
+                        <div class="row g-3 text-lg-start">
+                          <div class="col-12">
+                            <label for="firstName" class="form-label"></label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Nombre" value=""
+                              required="">
+                            <div class="invalid-feedback">
+                              Valid first name is required.
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="lastName" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Apellido" value=""
+                              required="">
+                            <div class="invalid-feedback">
+                              Valid last name is required.
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="email" class="form-label">Correo</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="tu@ejemplo.com">
+                            <div class="invalid-feedback">
+                              Porfavor ingresa un e-mail válido.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a href="Malla_informática.pdf" target="_blank" download="Malla">
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item text-white bg-dark">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          INGENIERÍA EN ADMINISTRACIÓN DE EMPRESAS
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <img class="card-img-top" src="diseño_acordeon.png" alt="Card image cap">
+        <div class="accordion-body">
+          <h5>Duración carrera: 2 años</h5>
+          <h5>Jornada: Diurno / Vespertino</h5>
+          <hr />
+          El Ingeniero/a en Administración de Empresas es un profesional preparado para gestionar estratégicamente
+          recursos y procesos administrativos
+          de áreas funcionales de empresas y organizaciones, con capacidad de adaptación al entorno en el contexto de
+          una economía globalizada. Su
+          proceso de formación entrega herramientas y habilidades para participar en equipos multidisciplinarios y
+          desempeñarse activamente en las
+          diferentes áreas de gestión de las organizaciones, creando valor en función de los objetivos
+          organizacionales.
+          <hr />
+          <div class="container">
+            <div class="text-end py-3 ">
+              <button type="button" class="btn">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <img src="descargar_malla.png" alt="mdo" width="90" class="rounded-pill">
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog bg-dark">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-dark">
+                        <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="col-12">
+                          <h4 class="mb-3 text-lg-start">Ingresa tus datos</h4>
+                          <div class="row g-3 text-lg-start">
+                            <div class="col-12">
+                              <label for="firstName" class="form-label"></label>
+                              <input type="text" class="form-control" id="firstName" placeholder="Nombre" value=""
+                                required="">
+                              <div class="invalid-feedback">
+                                Valid first name is required.
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <label for="lastName" class="form-label">Apellido</label>
+                              <input type="text" class="form-control" id="lastName" placeholder="Apellido" value=""
+                                required="">
+                              <div class="invalid-feedback">
+                                Valid last name is required.
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <label for="email" class="form-label">Correo</span></label>
+                              <input type="email" class="form-control" id="email" placeholder="tu@ejemplo.com">
+                              <div class="invalid-feedback">
+                                Porfavor ingresa un e-mail válido.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a href="Malla_informática.pdf" target="_blank" download="Malla">
+                          <button type="button" class="btn btn-primary">Enviar</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="accordion-item text-white bg-dark">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          INGENIERÍA EN DATA SCIENCE
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <img class="card-img-top" src="diseño_acordeon.png" alt="Card image cap">
+        <div class="accordion-body">
+          <h5>Duración carrera: 2 años</h5>
+          <h5>Jornada: Diurno / Vespertino</h5>
+          <hr />
+          El Ingeniero de Ejecución en Informática es un profesional capacitado para realizar y proponer soluciones
+          integrales en desarrollo de sistemas,
+          incorporando el análisis, metodologías, pruebas e implementación de soluciones seguras. Su formación lo
+          habilita para formular, evaluar y
+          gestionar proyectos informáticos, conforme a estándares de calidad técnica y a los requerimientos del
+          cliente. La carrera se encuentra alineada
+          con perfiles ocupacionales definidos por ChileValora, incorporados en marco de calificaciones técnicos
+          profesionales del MINEDUC; las
+          competencias del perfil de egreso están desarrolladas bajo el marco de competencias SFIA (Skills Framework
+          for the Information Age).
+          <hr />
+          <div class="container">
+            <div class="text-end py-3 ">
+              <button type="button" class="btn">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <img src="descargar_malla.png" alt="mdo" width="90" class="rounded-pill">
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog bg-dark">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-dark">
+                        <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="col-12">
+                          <h4 class="mb-3 text-lg-start">Ingresa tus datos</h4>
+                          <div class="row g-3 text-lg-start">
+                            <div class="col-12">
+                              <label for="firstName" class="form-label"></label>
+                              <input type="text" class="form-control" id="firstName" placeholder="Nombre" value=""
+                                required="">
+                              <div class="invalid-feedback">
+                                Valid first name is required.
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <label for="lastName" class="form-label">Apellido</label>
+                              <input type="text" class="form-control" id="lastName" placeholder="Apellido" value=""
+                                required="">
+                              <div class="invalid-feedback">
+                                Valid last name is required.
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <label for="email" class="form-label">Correo</span></label>
+                              <input type="email" class="form-control" id="email" placeholder="tu@ejemplo.com">
+                              <div class="invalid-feedback">
+                                Porfavor ingresa un e-mail válido.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a href="Malla_informática.pdf" target="_blank" download="Malla">
+                          <button type="button" class="btn btn-primary">Enviar</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item text-white bg-dark">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          INGENIERÍA DE EJECUCIÓN EN INFORMÁTICA
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+        data-bs-parent="#accordionExample">
+        <img class="card-img-top" src="diseño_acordeon.png" alt="Card image cap">
+        <div class="accordion-body">
+          <h5>Duración carrera: 2 años</h5>
+          <h5>Jornada: Diurno / Vespertino</h5>
+          <hr />
+          El Ingeniero de Ejecución en Informática es un profesional capacitado para realizar y proponer soluciones
+          integrales en desarrollo de sistemas,
+          incorporando el análisis, metodologías, pruebas e implementación de soluciones seguras. Su formación lo
+          habilita para formular, evaluar y
+          Subdirección de Diseño Instruccional Página 5 de 5
+          Versión 2022
+          gestionar proyectos informáticos, conforme a estándares de calidad técnica y a los requerimientos del
+          cliente. La carrera se encuentra alineada
+          con perfiles ocupacionales definidos por ChileValora, incorporados en marco de calificaciones técnico
+          profesionales del MINEDUC; las
+          competencias del perfil de egreso están desarrolladas bajo el marco de competencias SFIA (Skills Framework
+          for the Information Age).
+          <hr />
+          <div class="container">
+            <div class="text-end py-3 ">
+
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <img src="descargar_malla.png" alt="mdo" width="90" class="rounded-pill">
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog bg-dark">
+                  <div class="modal-content bg-dark">
+                    <div class="modal-header bg-dark">
+                      <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="col-12">
+                        <h4 class="mb-3 text-lg-start">Ingresa tus datos</h4>
+                        <div class="row g-3 text-lg-start">
+                          <div class="col-12">
+                            <label for="firstName" class="form-label"></label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Nombre" value=""
+                              required="">
+                            <div class="invalid-feedback">
+                              Valid first name is required.
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="lastName" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Apellido" value=""
+                              required="">
+                            <div class="invalid-feedback">
+                              Valid last name is required.
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <label for="email" class="form-label">Correo</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="tu@ejemplo.com">
+                            <div class="invalid-feedback">
+                              Porfavor ingresa un e-mail válido.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a href="Malla_informática.pdf" target="_blank" download="Malla">
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer de la pagina -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="text-muted">© 2020 Company, Inc</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <p>Siguenos</p>
+        <div class="ms-3"><a class="text-muted" href="https://twitter.com/home?lang=es"><img src="pajarito.png"
+              alt="mdo" width="40" class="rounded-circle"></a></div>
+        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"><img src="facebook.png" alt="mdo"
+              width="40" class="rounded-circle"></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/?hl=es-la"><img src="instagram.jpg"
+              alt="mdo" width="40" class="rounded-circle"></a></li>
+      </ul>
+    </footer>
+</body>
+
+</html>
